@@ -1,6 +1,18 @@
-<!DOCTYPE html>
-<html> <h1>
-   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdL_fB5yDfBQQ9XL2KcKcSzxdjNz33bQaXFg5gLyjNfqAh1Tw/viewform?embedded=true" width="640" height="1752" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-   </h1>
-  </html>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+<script type='text/javascript'>    
+  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1xL9G8KRJRZ4Z2RMy4R6NdgyKsnPP_xGYgTov40IIImE/edit?usp=sharing';
+
+  function init() {
+    Tabletop.init( { key: publicSpreadsheetUrl,
+                     callback: showInfo,
+                     simpleSheet: true } )
+  }
+
+  function showInfo(data, tabletop) {
+    alert('Successfully processed!')
+    console.log(data);
+  }
+
+  window.addEventListener('DOMContentLoaded', init)
+</script>
