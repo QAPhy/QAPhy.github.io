@@ -15,7 +15,7 @@ Radioactive_NM = mediax.Movie("Radioactivity & Nuclear Medicine","Nuclear Medici
                       "https://humanhealth.iaea.org/HHW/NuclearMedicine/resources/images/2-WorkstationEBW.jpg",
                       "https://youtu.be/2vVVfrPHoTs")
 
-PET_CT_QC = mediax.Movie("Daily PET CT QC tests","Quality Control of PET/CT",
+PET_CT_QC = mediax.Movie("Daily PET/CT QC tests","Quality Control of PET/CT",
                       "https://humanhealth.iaea.org/HHW/NuclearMedicine/resources/images/2-WorkstationEBW.jpg",
                       "https://youtu.be/PNIUGBUBMfU")
 
